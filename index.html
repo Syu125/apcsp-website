@@ -3,6 +3,12 @@
   <head>
     <title>Student Page</title>
 	<style>
+div.a {
+	width: auto;
+	}
+div.b {
+	width:50%;
+	}
 	.button {
 	background-color: #4CAF50;
 	border: none;
@@ -13,21 +19,25 @@
 	font-size:22px;
 	margin: 4px 2px;
 	cursor:pointer;
+	color: #ffffff;
 	}
-	.button2 {background-color: #00DCBA;}
+	.button2 {background-color: #00a7c1;}
+	body{
+	background-image: url("https://s3.amazonaws.com/msoe/files/callouts/wide_sml_computer-science-landing-page.jpg");
+	background-repeat:no-repeat;
+	background-color:#9bf3ff;
+	background-position: 0 -300px;
+}
+
 	</style>
   </head>
 
-  <body><body bgcolor =ccffff>
+  <body>
 <h1>Welcome to My Website!</h1>
 	<button class="button button2" onclick="window.location.href = 'references.html';">References</button>
-	<button class="btn isalive">RPI Status</button>
-    <h2> About Me </h2>
-   <em> <p width="100"> My name is Sophia Yu, and I am a student who has had experience with Java for 3 years. Since middle school, I have had a passion for computer science and hope to go further in this field.</p></em>
-	<center><font size=5><b><h3>Projects </h3></font><b></center>
-    <center><a href="isAlive.html">isAlive</link></center>
-	<a href="references.html" class="button button2">References</link>
-    <a href="rpi17/spi
+	<button class="button button2"onclick="window.location.href='isAlive.html';">Projects</button>
+    <h2> About Me </h2>   
+<em> <div class="b"> My name is Sophia Yu, and I am a student who has had experience with Java for 3 years. Since middle school, I have had a passion for computer science and hope to go further in this field. My experience in computer science includes learning Java and HTML</div></em>
   </body>
   <head>
 	<title>RPI Status</title> 
